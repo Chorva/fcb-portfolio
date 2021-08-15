@@ -1,0 +1,87 @@
+pwd - present working directory
+
+ls - lists content of folder/directory
+
+cd - change directory (example: cd Directory)
+
+mkdir - make directory (example: mkdir fcb-portfolio)
+
+touch - make file (example: touch index.html  touch style.css)
+
+CLI Commands:
+
+ls --> list content of folder
+
+pwd --> display current location
+
+cd <folder_name> --> go inside the target folder
+
+mkdir <new_folder_name> --> create the new folder
+
+touch <file_name> --> create the new file
+
+https://getbootstrap.com/
+Use Boostrap v4.6 - mas stable siya
+
+
+
+
+CMJazmines@SKYLT3223 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/cmjazmines/.git/
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git config --global user.name "Chorva"
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git config --global user.email "dimpy_jazmines@yahoo.com"
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git remote add origin https://github.com/Chorva/fcb-portfolio.git
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git remote -v
+origin  https://github.com/Chorva/fcb-portfolio.git (fetch)
+origin  https://github.com/Chorva/fcb-portfolio.git (push)
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+$ git add .
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'AppData/Local/History/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Local/Temporary Internet Files/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+warning: LF will be replaced by CRLF in .gitconfig.
+The file will have its original line endings in your working directory
+error: open("AppData/Local/Comms/UnistoreDB/USS.jtx"): Permission denied
+error: unable to index file 'AppData/Local/Comms/UnistoreDB/USS.jtx'
+fatal: adding files failed
+
+CMJazmines@SKYLT3223 MINGW64 ~ (master)
+
+
+
+
+
+
+
+
+
